@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app-container">
     <router-view></router-view>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 :root {
   /* text */
   --primary-color: #fc7eb2;
-  --primary-color-5: #fee6f0;
+  --primary-color-5: #fc7eb2;
   --secondary-color: #dfdfdf;
   --grey-color: #3c3c3c;
 }

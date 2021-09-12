@@ -8,7 +8,6 @@ cd dist
 
 git init
 git add -A
-git commit -m 'new deployment'
+git commit -m 'deployment'
 git push -f git@github.com:alsemffp82/aplyid.git master:gh-pages
-
 cd -
